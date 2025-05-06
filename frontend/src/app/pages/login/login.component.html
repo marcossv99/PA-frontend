@@ -1,0 +1,9 @@
+<main>
+    <section>
+        <h2>Login</h2>
+        <input [(ngModel)]="cpfOuEmail" placeholder="Informe seu email ou CPF" required>
+        <input placeholder="Informe sua senha" [(ngModel)]="senha" required>
+        <button (click)="FazerLogin()">Entrar</button>
+        <p>{{mensagem}}</p>
+    </section>
+</main>
